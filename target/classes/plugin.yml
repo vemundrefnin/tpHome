@@ -1,3 +1,7 @@
 main: vemundrefnin.App
 name: tpHome
 version: 0.1
+commands:
+  die:
+    description: Die
+    usage: /<command>
