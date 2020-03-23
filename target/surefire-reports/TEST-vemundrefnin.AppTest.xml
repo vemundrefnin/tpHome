@@ -1,61 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="vemundrefnin.AppTest" time="0.002" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="vemundrefnin.AppTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="13.0.1+9"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openjdk-13.0.1.jdk/Contents/Home/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/vemundrefnin/Documents/Coding/minecraftPlugin/tpHome"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=":"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="user.country" value="GB"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/vemundrefnin/Documents/Coding/minecraftPlugin/tpHome"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="13.0.1+9"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/25/2nyz0vh15qq26sc1j5m0wz680000gn/T/"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/vemundrefnin/Downloads/apache-maven-3.6.3/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/vemundrefnin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/Users/vemundrefnin/Downloads/apache-maven-3.6.3/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="57.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.15.3"/>
-    <property name="library.jansi.path" value="/Users/vemundrefnin/Downloads/apache-maven-3.6.3/lib/jansi-native"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/vemundrefnin"/>
-    <property name="user.timezone" value="Europe/Oslo"/>
-    <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="13"/>
-    <property name="user.name" value="vemundrefnin"/>
-    <property name="java.class.path" value="/Users/vemundrefnin/Downloads/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/vemundrefnin/Documents/Coding/minecraftPlugin/tpHome/target/test-classes:/Users/vemundrefnin/Documents/Coding/minecraftPlugin/tpHome/target/classes:/Users/vemundrefnin/.m2/repository/org/spigotmc/spigot-api/1.13.2-R0.1-SNAPSHOT/spigot-api-1.13.2-R0.1-SNAPSHOT.jar:/Users/vemundrefnin/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/vemundrefnin/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/vemundrefnin/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/vemundrefnin/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/vemundrefnin/.m2/repository/com/google/guava/guava/21.0/guava-21.0.jar:/Users/vemundrefnin/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/vemundrefnin/.m2/repository/net/md-5/bungeecord-chat/1.13-SNAPSHOT/bungeecord-chat-1.13-SNAPSHOT.jar:/Users/vemundrefnin/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install -f /Users/vemundrefnin/Documents/Coding/minecraftPlugin/tpHome"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/openjdk-13.0.1.jdk/Contents/Home"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openjdk-13.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/vemundrefnin/Documents/Coding/minecraftPlugin/tpHome/target/surefire/surefirebooter3664317254656743201.jar /Users/vemundrefnin/Documents/Coding/minecraftPlugin/tpHome/target/surefire 2020-03-23T22-36-19_140-jvmRun1 surefire2539727846993439389tmp surefire_014602717175403175055tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/vemundrefnin/Documents/Coding/minecraftPlugin/tpHome/target/test-classes:/Users/vemundrefnin/Documents/Coding/minecraftPlugin/tpHome/target/classes:/Users/vemundrefnin/.m2/repository/org/spigotmc/spigot-api/1.13.2-R0.1-SNAPSHOT/spigot-api-1.13.2-R0.1-SNAPSHOT.jar:/Users/vemundrefnin/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/vemundrefnin/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/vemundrefnin/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/vemundrefnin/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/vemundrefnin/.m2/repository/com/google/guava/guava/21.0/guava-21.0.jar:/Users/vemundrefnin/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/vemundrefnin/.m2/repository/net/md-5/bungeecord-chat/1.13-SNAPSHOT/bungeecord-chat-1.13-SNAPSHOT.jar:/Users/vemundrefnin/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/vemundrefnin"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="13.0.1"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Users/vemundrefnin/Downloads/apache-maven-3.6.3"/>
-    <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2019-10-15"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/openjdk-13.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/vemundrefnin/Documents/Coding/minecraftPlugin/tpHome"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/vemundrefnin/Documents/Coding/minecraftPlugin/tpHome/target/surefire/surefirebooter3664317254656743201.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="vemundrefnin"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/vemundrefnin/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/25/2nyz0vh15qq26sc1j5m0wz680000gn/T/"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="/Users/vemundrefnin/Documents/Coding/minecraftPlugin/tpHome"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/vemundrefnin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase classname="vemundrefnin.AppTest" name="shouldAnswerWithTrue" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="vemundrefnin.AppTest" time="0.001"/>
 </testsuite>
