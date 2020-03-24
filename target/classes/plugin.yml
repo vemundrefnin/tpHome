@@ -2,6 +2,7 @@ main: vemundrefnin.App
 name: tpHome
 version: 0.1
 commands:
-  die:
-    description: Die
-    usage: /<command>
+  sethome:
+    description: Sets a home point at your location.
+  home:
+    description: Sends you to your home point.
